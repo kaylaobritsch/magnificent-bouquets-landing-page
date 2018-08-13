@@ -4064,6 +4064,11 @@ textarea::placeholder {
 
 @media only screen and (min-width: 60em) {
 
+  #flex {
+    display: inline-block;
+    flex-direction: column;
+  }
+
   .header li,
   .header .menu-btn {
     background-color: white;

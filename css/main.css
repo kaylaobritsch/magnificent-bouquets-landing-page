@@ -4023,6 +4023,15 @@ textarea::placeholder {
   font-family: "Playfair Display", serif;
 }
 
+.link-contact-icon a {
+  color: #fff;
+}
+
+.link-contact-icon:hover a,
+.link-contact-icon:focus a, {
+  color: #bb91bc;
+}
+
 #flex {
   display: flex;
   flex-direction: column;

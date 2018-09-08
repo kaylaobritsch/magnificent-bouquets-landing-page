@@ -32,7 +32,7 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Magnificent Bouquets">
   <meta property="og:url" content="404">
-  <meta property="og:image" content="images/logo-og.jpg">
+  <meta property="og:image" content="../images/logo-og.jpg">
   <meta property="og:site_name" content="Magnificent Bouquets">
   <meta property="og:description" content="404. Page not found.">
   <meta name="twitter:card" content="summary">
@@ -40,7 +40,7 @@
   <meta name="twitter:title" content="Magnificent Bouquets">
   <meta name="twitter:url" content="404">
   <meta name="twitter:description" content="404. Page not found.">
-  <meta name="twitter:image" content="images/logo-og.jpg">
+  <meta name="twitter:image" content="../images/logo-og.jpg">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 </head>
 <body class="scrolling" id="body">
@@ -64,33 +64,38 @@
       <header class="header">
         <div class="wrapper top-nav grid grid-middle push-0 pad-t-1-2 pad-b-1-2">
           <div class="unit xs-1-2 l-1-5 logo gutter-1-4">
-            <a itemprop="url" rel="home" href="/" class="no-print-href">
-              <img itemprop="logo" class="img-flex" src="/images/magnificent-bouquets-logo.png">
+            <a itemprop="url" rel="home" class="no-print-href" href="/">
+              <img itemprop="logo" alt="Magnificent Bouquets, a luxury florist in Oadby, Leicester, East Midlands, logo" class="img-flex" src="../../images/magnificent-bouquets-logo.png">
             </a>
           </div>
           <input class="menu-btn" type="checkbox" id="menu-btn" />
           <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
           <ul class="nav nav-list menu menu-1 push-0 unit xs-1 l-2-5 gutter-0">
-            <li class="milli gutter-1-2"><a href="/gallery/" >Gallery</a></li>
-            <li class="milli gutter-1-2"><a href="/about/" >About</a></li>
-            <li class="milli gutter-1-2"><a href="/services/" >Services</a></li>
+            <li class="milli gutter-1-2"><a href="/gallery/" itemprop="url">Gallery</a></li>
+            <li class="milli gutter-1-2"><a href="/about/" itemprop="url">About</a></li>
+            <li class="dropdown inline relative push-0">
+              <div class="milli gutter-1-2 dropbtn push-0"><a href="/services/" itemprop="url">Services</a></div>
+              <ul class="dropdown-content push-0">
+                <li class="micro gutter-1-2"><a class="secondary-nav island-1-2" href="/funeral/oadby-and-wigston/" itemprop="url">Funeral | Oadby and Wigston</a></li>
+              </ul>
+            </li>
           </ul>
           <ul class="nav nav-list menu menu-2 push-0 unit xs-1 l-2-5">
             <li class="milli gutter-1-2" ><a itemprop="url" href="https://magnificentbouquets.tumblr.com">Blog</a></li>
-            <li class="milli gutter-1-2"><a href="/contact/" >Contact</a></li>
+            <li class="milli gutter-1-2"><a itemprop="url" href="/contact/" >Contact</a></li>
             <li class="milli gutter-1-2"><a itemprop="url" href="/#testimonials" >Testimonial</a></li>
           </ul>
         </div>
       </header>
     </nav>
-    
+
     <p class="print-only island-1-2 print-box">Thank you for printing our content at http://magnificentbouquets.com/. Please check back soon for more flowery designs.</p>
 
     <main itemref="data-contact" itemscope="provider" itemtype="http://schema.org/Florist" id="main">
       <section class="banner relative embed embed-3by2 no-print">
   <div>
     <div class="embed-item">
-      <img itemprop="image" class="img-flex" alt="404 banner" src="/images/banner-404.jpg">
+      <img itemprop="image" class="img-flex" alt="404 banner" src="../images/banner-404.jpg">
     </div>
     <div class="banner-text text-center island-1-2">
       <h1 class="push-0 exa banner-heading">404</h1>

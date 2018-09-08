@@ -4114,6 +4114,19 @@ textarea::placeholder {
 
 @media only screen and (min-width: 60em) {
 
+  .link-contact-icon:hover svg .a,
+  .link-contact-icon:focus svg .a,
+  .link-contact-icon:hover p,
+  .link-contact-icon:focus p {
+    fill: #bb91bc !important;
+    color: #bb91bc;
+  }
+
+  .link-contact-icon:hover svg .b,
+  .link-contact-icon:focus svg .b  {
+    stroke: #bb91bc !important;
+  }
+
   .secondary-nav {
     padding-left: 0 !important;
   }

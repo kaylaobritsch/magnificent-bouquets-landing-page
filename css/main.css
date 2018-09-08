@@ -3815,6 +3815,27 @@ div.i4ewOd-pzNkMb-haAclf {
   fill: #555154;
 }
 
+.link-contact-icon svg .a {
+  fill: #fff !important;
+}
+
+.link-contact-icon svg .b {
+  stroke: #fff !important;
+}
+
+.link-contact-icon:hover svg .a,
+.link-contact-icon:focus svg .a,
+.link-contact-icon:hover p,
+.link-contact-icon:focus p {
+  fill: #555154 !important;
+  color: #555154;
+}
+
+.link-contact-icon:hover svg .b,
+.link-contact-icon:focus svg .b  {
+  stroke: #555154 !important;
+}
+
 .social-section svg:hover,
 .social-section svg:focus {
   fill: #bb91bc;
@@ -4082,6 +4103,13 @@ textarea::placeholder {
     flex-direction: column;
   }
 
+  #asian-img {
+    order: 2;
+  }
+
+  #asian-txt {
+    order: 1;
+  }
 }
 
 @media only screen and (min-width: 60em) {
